@@ -140,7 +140,9 @@ QTabWidget
  color: #E6E6E6;
  }
 
-
+GrandMasterSlider QLabel{
+  color:black;
+  }
  
  
 
