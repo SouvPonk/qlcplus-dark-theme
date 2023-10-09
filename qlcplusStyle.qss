@@ -58,15 +58,11 @@ QPushButton:pressed
  color: #E6E6E6;
  }  
 
-QRadioButton::indicator
- {
- background-color: #5A6570;
- } 
-
-QRadioButton::indicator::checked
- {
- background-color: #308CC6;
- } 
+ QRadioButton
+{
+background-color: #404B57;
+  color: #E6E6E6;
+}
 
 QScrollBar:horizontal 
 {
