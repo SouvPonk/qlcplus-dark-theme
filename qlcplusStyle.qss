@@ -21,6 +21,7 @@ QTextBrowser
 QFrame, QLabel, QToolTip
  {
  background-color: #404B57;
+ color: #E6E6E6;
  }
 
 QGroupBox, QGroupBox::title, QGroupBox::indicator
