@@ -9,4 +9,7 @@ Copy **qlcplusStyle.qss** to:
 - Windows  **C:\Users\YOURUSERNAME\QLC+\qlcplusStyle.qss**
 - MacOS    **~/Library/Application Support/QLC+/qlcplusStyle.qss**
 
-
+![Inputs/Outputs](.github/Capture%20d%E2%80%99%C3%A9cran%20de%202023-10-10%2009-45-56.png)
+![Simple Desk](.github/Capture%20d%E2%80%99%C3%A9cran%20de%202023-10-10%2009-46-01.png)
+![Functions](.github/Capture%20d%E2%80%99%C3%A9cran%20de%202023-10-10%2009-46-05.png)
+![Fixtures](.github/Capture%20d%E2%80%99%C3%A9cran%20de%202023-10-10%2009-47-25.png)
