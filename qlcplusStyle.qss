@@ -1,5 +1,5 @@
 /* QLC+ blue-ish dark theme by Jeremy AMMD -- http://www.ammd.net 
-Fork from https://github.com/EmerickH/qlcplus-dark-theme and https://docs.qlcplus.org/v4/advanced/custom-ui-style*/
+Fork from https://github.com/EmerickH/qlcplus-dark-theme and https://docs.qlcplus.org/v4/advanced/custom-ui-style */
 
 QMainWindow, QDialog
 {
