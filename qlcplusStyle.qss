@@ -12,6 +12,7 @@ QTreeWidget
  alternate-background-color: #404B57;
  color: #E6E6E6;
 }
+
 QTextBrowser
 {
  background-color: #404B57;
@@ -59,25 +60,43 @@ QPushButton:pressed
  color: #E6E6E6;
  }  
 
- QRadioButton
+QRadioButton
 {
 background-color: #404B57;
   color: #E6E6E6;
 }
 
-QScrollBar:horizontal 
-{
-     height: 15px;
- background-color: #404B57;
- color: #E6E6E6;
- } 
-  
-QScrollBar:vertical
-{ 
-     width: 15px;
- background-color: #404B57;
- color: #E6E6E6;
- } 
+QScrollBar:vertical, QScrollBar:horizontal {
+
+  border: 1px solid #313A43;
+  width: 15px;
+  margin: 21px 0 21px 0;
+}
+
+QScrollBar::handle:vertical, QScrollBar::handle:horizontal {
+  background-color: #5A6570;
+  min-height: 25px;
+}
+
+QScrollBar::add-line:vertical, QScrollBar::sub-line:vertical, QScrollBar::add-line:horizontal, QScrollBar::sub-line:horizontal {
+    border: 1px solid #313A43;
+    background-color: #5A6570;
+    height: 20px;
+}
+
+QScrollBar::add-line:vertical, QScrollBar::add-line:horizontal {
+    subcontrol-position: bottom;
+    subcontrol-origin: margin;
+}
+
+QScrollBar::sub-line:vertical, QScrollBar::sub-line:horizontal {
+    subcontrol-position: top;
+    subcontrol-origin: margin;
+}
+
+QScrollBar::add-page:vertical, QScrollBar::sub-page:vertical, QScrollBar::add-page:horizontal, QScrollBar::sub-page:horizontal {
+    background: #404B57;
+}
 
 QSpinBox
  {
@@ -143,6 +162,8 @@ QTabWidget
 GrandMasterSlider QLabel{
   color:black;
   }
- 
- 
 
+QGroupBox, QCheckBox {
+    color: #E6E6E6; 
+} 
+ 
